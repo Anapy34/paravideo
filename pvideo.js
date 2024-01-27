@@ -1,38 +1,44 @@
 // pvideo.js
 
-const albums = [
-    {
-        name: 'Album 1',
-        cover: 'https://img.youtube.com/vi/QnCs2nsZGRk/mqdefault.jpg',
+window.albums = [
+        {
+            name: 'Album 1',
+            cover: 'https://img.youtube.com/vi/QnCs2nsZGRk/mqdefault.jpg',
+            videos: [
+                'https://www.youtube.com/embed/QnCs2nsZGRk',
+                'https://www.youtube.com/embed/gMcbiuNYnQY'
+            ]
+        },
+        {
+            name: 'Album 2',
+            cover: '',
+            videos: [
+              'https://player.vimeo.com/video/384878999',
+               'https://player.vimeo.com/video/307791576',
+              'https://player.vimeo.com/video/378788675',
+		'https://vimeo.com/345036555',
+              'https://vimeo.com/306676681',
+                
+            ]
+        },
+        {
+            name: 'Album 3',
+            cover: 'https://i3.ytimg.com/vi/v3SQTOZO36E/hqdefault.jpg',
+            videos: [
+                     'https://www.youtube.com/embed/v3SQTOZO36E',
+                     'https://www.youtube.com/embed/Zdh2hot8rjU',
+                     'https://www.youtube.com/embed/GXk9e1K52L4'
+                    ]
+        },
+       {
+            name: 'Album 4',
+            cover: 'https://cdn-icons-png.flaticon.com/512/7405/7405885.png',
         videos: [
-            'https://www.youtube.com/embed/QnCs2nsZGRk',
-            'https://www.youtube.com/embed/gMcbiuNYnQY'
-        ]
-    },
-    {
-        name: 'Album 2',
-        cover: 'https://i.vimeocdn.com/video/747831242-883562d229153aaf8eabe591d991419b6af862c5105fd83ab44329403214fd96-d?mw=700&mh=394',
-        videos: [
-            'https://player.vimeo.com/video/307791576',
-            'https://player.vimeo.com/video/384878999'
-        ]
-    },
-    // Adicione mais álbuns, se necessário
-];
-
-function getVideoThumbnail(videoUrl) {
-    // Implemente a lógica para obter a miniatura do vídeo
-    // Similar à sua implementação anterior
-}
-
-function getVimeoVideoId(videoUrl) {
-    // Implemente a lógica para obter o ID do vídeo do Vimeo
-    // Similar à sua implementação anterior
-}
-
-function getYouTubeVideoId(videoUrl) {
-    // Implemente a lógica para obter o ID do vídeo do YouTube
-    // Similar à sua implementação anterior
-}
-
-export { albums, getVideoThumbnail, getVimeoVideoId, getYouTubeVideoId };
+                 'https://www.xvideos.com/embedframe/74149425',
+                 'https://www.pornhub.com/embed/ph63286e3a24438',
+                 'https://br.xhamster.com/embed/xhLcoji',
+		 'https://br.xhamster.com/embed/xhpVPMp',
+           
+		   ]     
+        },
+    ];

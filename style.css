@@ -1,0 +1,201 @@
+body {
+      font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+   background: linear-gradient(
+      217deg,
+      rgb(255 0 0 / 80%),
+      rgb(255 0 0 / 0%) 70.71%
+    ), linear-gradient(157deg, rgb(0 170 180 / 80%), rgb(0 170 180 / 0%) 70.71%),
+    linear-gradient(326deg, rgb(0 0 255 / 80%), rgb(0 0 255 / 0%) 70.71%);
+
+}
+
+.player-container {
+    display: flex;
+    width: 90%;
+    height: auto;
+    min-height: 300px;
+     min-width: 200px;
+    max-width: 670px;
+    margin: 0 auto;
+    position: relative;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #343536, #131415); 
+    transition: background 0.5s ease-in-out;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    transition: all .3s;
+/*    transform: scale(0.8); */
+   border-radius: 10px;
+   box-shadow: 0px 0px 30px 1px rgba(0, 255, 0, 0.50);
+
+}
+
+#player {
+    width: 100%;
+    aspect-ratio: 16/9;  /* Aspect ratio 16:9 for responsive  */
+    position: relative;
+}
+
+.controls button {
+    margin: 4px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.controls button:hover {
+    background-color: #349899;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.popup {
+    background: #2c3e50;
+    width: 55%;
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    z-index: 2;
+    text-align: left;
+/*     max-width: 600px; */
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.popup img {
+    margin-right: 10px;
+    float: left;
+}
+
+.popup p {
+    margin: 0;
+    line-height: 0.5;
+  font-size: 12px;
+  color: rgb(204 204 204 / 30%);
+
+}
+
+#cxlista {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#cxlista > div {
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.listavideo > div > img {
+    margin: 3px;
+}
+
+#cxalbum {
+    margin-top: 10px;
+    display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+#cxalbum img {
+    margin: 4px;
+}
+
+#closeBtn {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #349899;
+    padding: 10px;
+    border-radius: 5px
+}
+
+
+.popup img:hover {
+    box-shadow: 0 0 10px rgba(52, 152, 153, 0.5);
+    transform: scale(1.09);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    #video-container {
+        height: auto;
+    }
+
+ #player {
+   height: auto;
+}
+
+    .popup {
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 350px) {
+  
+#cxalbum > img {
+width: 90px;
+  height: auto;
+  overflow: hidden;
+}
+  
+#cxalbum > div {
+width: 250px;
+  overflow: hidden;
+}
+}
+
+@media (max-width: 270px) {
+  
+#cxalbum > img {
+width: 60px;
+  height: auto;
+  overflow: hidden;
+}
+  
+
+}

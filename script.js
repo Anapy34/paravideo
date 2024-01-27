@@ -13,7 +13,10 @@ document.addEventListener('DOMContentLoaded', function () {
             cover: '',
             videos: [
               'https://player.vimeo.com/video/384878999',
-                    'https://player.vimeo.com/video/307791576',
+               'https://player.vimeo.com/video/307791576',
+              'https://player.vimeo.com/video/378788675',
+		'https://vimeo.com/345036555',
+              'https://vimeo.com/306676681',
                 
             ]
         },
@@ -28,12 +31,12 @@ document.addEventListener('DOMContentLoaded', function () {
         },
        {
             name: 'Album 4',
-            cover: 'https://img-egc.xvideos-cdn.com/videos/thumbs169poster/dd/30/ed/dd30ed1a5f851ce0238070887835eeb1/dd30ed1a5f851ce0238070887835eeb1.30.jpg',
+            cover: 'https://cdn-icons-png.flaticon.com/512/7405/7405885.png',
         videos: [
                  'https://www.xvideos.com/embedframe/74149425',
                  'https://www.pornhub.com/embed/ph63286e3a24438',
                  'https://br.xhamster.com/embed/xhLcoji',
-				 'https://br.xhamster.com/embed/xhpVPMp',
+		 'https://br.xhamster.com/embed/xhpVPMp',
            
 		   ]     
         },

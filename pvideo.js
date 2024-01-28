@@ -13,11 +13,11 @@ window.albums = [
             name: 'Album 2',
             cover: '',
             videos: [
-              'https://player.vimeo.com/video/384878999',
+                'https://player.vimeo.com/video/384878999',
                'https://player.vimeo.com/video/307791576',
-              'https://player.vimeo.com/video/378788675',
-		'https://vimeo.com/345036555',
-              'https://vimeo.com/306676681',
+               'https://player.vimeo.com/video/378788675',
+	       'https://player.vimeo.com/video/345036555',
+               'https://player.vimeo.com/video/306676681',
                 
             ]
         },
